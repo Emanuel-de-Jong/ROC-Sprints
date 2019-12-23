@@ -16,16 +16,14 @@ This shows the progress I made and things I learned the first few months at my f
 
 
 ## Screenshots
+![Microbit](/Screenshots/Microbit.png)
+
+![App Inventor](/Screenshots/App%20Inventor.png)
+
 ![Frontend](/Screenshots/Frontend.png)
 
-![Microbit](https://github.com/Emanuel-de-Jong/Sprints/blob/master/Screenshots/App%20Inventor.png)
+![CS](/Screenshots/CS.png)
 
-![App Inventor](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/App%20Inventor.png)
+![PHP](/Screenshots/PHP.png)
 
-![Frontend](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Frontend.png)
-
-![CS](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/CS.png)
-
-![PHP](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/PHP.png)
-
-![SQL](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/SQL.png)
+![SQL](/Screenshots/SQL.png)
