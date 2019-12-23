@@ -1,0 +1,73 @@
+﻿<Window x:Class="Tester.NewTrack"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local1="clr-namespace:AudioDevices.Tracks;assembly=AudioDevices"
+        xmlns:codeg="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:Tester"
+        mc:Ignorable="d"
+        Title="AddTrack" Height="600" Width="800" ResizeMode="NoResize">
+    <Window.Resources>
+        <ObjectDataProvider MethodName="GetValues" ObjectType="{x:Type codeg:Enum}" x:Key="myenu">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type Type="local1:Category" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="ID" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Naam" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Artiest" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
+        <Label Grid.Row="3" Grid.Column="0" Content="Album" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
+        <Label Grid.Row="4" Grid.Column="0" Content="Categorie" VerticalAlignment="Center" Margin="30,0,0,0" FontSize="20"/>
+
+        <TextBox Name="txtID" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="150"/>
+        <TextBox Name="txtName" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300"/>
+        <TextBox Name="txtArtist" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300"/>
+        <TextBox Name="txtAlbumSource" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300"/>
+        <ComboBox Name="cbCategory" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="300" IsReadOnly="True" ItemsSource="{Binding Source={StaticResource myenu}}" ></ComboBox>
+
+        <Grid Grid.Row="5" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45" />
+                <RowDefinition Height="45" />
+                <RowDefinition Height="45" />
+                <RowDefinition Height="45" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="Lengte" VerticalAlignment="Bottom" />
+            <RadioButton Name="rbSec" Grid.Row="1" Grid.Column="0" Content="Seconden" IsChecked="True" VerticalAlignment="Center" Margin="10,0,0,0" Click="SecondenClick"/>
+            <RadioButton Grid.Row="2" Grid.Column="0" Content="Minuten/Seconden" VerticalAlignment="Center" Margin="10,0,0,0" Click="MinutenSecondenClick"/>
+            <RadioButton Grid.Row="3" Grid.Column="0" Content="Uren/Minuten/Seconden" VerticalAlignment="Center" Margin="10,0,0,0" Click="UrenMinutenSecondenClick"/>
+
+            <StackPanel Name="LengteStackPanel" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBox Name="Uren" Width="50" Margin="0,0,20,0" Visibility="Visible" />
+                <TextBox Name="Minuten" Width="50" Margin="0,0,20,0" Visibility="Hidden" />
+                <TextBox Name="Seconden" Width="50" Visibility="Hidden" />
+            </StackPanel>
+
+        </Grid>
+        
+        <Button Grid.Row="5" Grid.Column="0" Content="Opslaan" VerticalAlignment="Bottom" Margin="0,0,0,30" Width="175" Height="55" FontSize="20" Click="AddTrackClick"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,5 @@
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Vincent\AudioDevices\bin\Debug\AudioDevices.dll
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Vincent\AudioDevices\bin\Debug\AudioDevices.pdb
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Vincent\AudioDevices\obj\Debug\AudioDevices.csproj.CoreCompileInputs.cache
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Vincent\AudioDevices\obj\Debug\AudioDevices.dll
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Vincent\AudioDevices\obj\Debug\AudioDevices.pdb

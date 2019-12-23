@@ -1,0 +1,2 @@
+D:\Data\School\Programeren\Scrum\Team-Scrum\semester 2\Sprint 9\S4-BE-M03\Syon\SoundSharpMVCSyon\obj\Debug\SoundSharpMVCSyon.csprojAssemblyReference.cache
+D:\Data\School\Programeren\Scrum\Team-Scrum\semester 2\Sprint 9\S4-BE-M03\Syon\SoundSharpMVCSyon\obj\Debug\SoundSharpMVCSyon.csproj.CoreCompileInputs.cache

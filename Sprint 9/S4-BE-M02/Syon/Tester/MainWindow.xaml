@@ -1,0 +1,23 @@
+﻿<Window x:Class="Tester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tester"
+        mc:Ignorable="d" 
+        Title="Hoofdmenu Soundsharp" Height="600" Width="800" ResizeMode="NoResize">
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Bestand">
+                <MenuItem Header="Afsluiten"/>
+            </MenuItem>
+            <MenuItem Header="Tracks">
+                <MenuItem Header="Nieuw" Click="NewTrackClick"/>
+                <MenuItem Header="Wijzig"/>
+            </MenuItem>
+        </Menu>
+        <TextBlock DockPanel.Dock="Top" Margin="50" TextWrapping="WrapWithOverflow" FontFamily="Brush Script MT" FontSize="30"
+               Text="Deze applicatie is bedoeld voor het beheren van diverse soorten audio apparaten voor Soundsharp"/>
+        <Image DockPanel.Dock="Bottom" Source="resources/SoundSharp.png"/>
+    </DockPanel>
+</Window>

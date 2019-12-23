@@ -1,0 +1,7 @@
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\bin\Debug\Tester.exe.config
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\bin\Debug\Tester.exe
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\bin\Debug\Tester.pdb
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\obj\Debug\Tester.exe
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\obj\Debug\Tester.pdb
+D:\Data\School\Programeren\Scrum\Team-Scrum-2\Soundsharp-Sprint-9\S4-BE-M01\Job\Tester\obj\Debug\Tester.csprojAssemblyReference.cache

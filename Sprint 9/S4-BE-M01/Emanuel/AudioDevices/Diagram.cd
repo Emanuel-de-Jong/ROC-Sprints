@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AudioDevices.Devices.AudioDevices" Collapsed="true">
+    <Position X="87" Y="36" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QoAQIAAAAAACAIAAAACBACABAAAAgAAAAAgAAAIIAAA=</HashCode>
+      <FileName>AudioDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioDevices.Devices.CdDiscMan" Collapsed="true">
+    <Position X="87" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwBQAAAAAAAAAEAAAAAAACAAAAAhAAAAAUAAAAFAAAA=</HashCode>
+      <FileName>CdDiscMan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioDevices.Devices.MemoRecorder" Collapsed="true">
+    <Position X="84.25" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemoRecorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioDevices.Devices.Mp3Player" Collapsed="true">
+    <Position X="89.5" Y="37.25" Width="1.5" />
+    <AssociationLine Name="trackList" Type="AudioDevices.Tracks.TrackList" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="90.562" Y="37.25" />
+        <Point X="90.562" Y="37.126" />
+        <Point X="90.562" Y="37.126" />
+        <Point X="90.562" Y="36.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAABAQEAAQIAAACAIAAAhAAAAAUAAAABAAAA=</HashCode>
+      <FileName>Mp3Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="trackList" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AudioDevices.Tracks.Track" Collapsed="true">
+    <Position X="89.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAAABEAAgAxAAIAEAAAABgAAAAIAAgg=</HashCode>
+      <FileName>Track.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Length" />
+      <Property Name="Style" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AudioDevices.Tracks.TrackList" Collapsed="true">
+    <Position X="89.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAABAQAAAAAAAEACAAAAABAEAA=</HashCode>
+      <FileName>TrackList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="tracks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="AudioDevices.Tracks.Time" Collapsed="true">
+    <Position X="86.75" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Track.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="AudioDevices.Tracks.Category" Collapsed="true">
+    <Position X="89.5" Y="32" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEIIACAgAAAAkAAAAEAAAAgQABKAAAAAAIgAIEIABAg=</HashCode>
+      <FileName>Track.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
