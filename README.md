@@ -16,14 +16,14 @@ This shows the progress I made and things I learned the first few months at my f
 
 
 ## Screenshots
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Microbit.png)
+![Microbit](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Microbit.png)
 
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/App%20Inventor.png)
+![App Inventor](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/App%20Inventor.png)
 
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Frontend.png)
+![Frontend](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Frontend.png)
 
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/CS.png)
+![CS](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/CS.png)
 
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/PHP.png)
+![PHP](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/PHP.png)
 
-![](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/SQL.png)
+![SQL](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/SQL.png)
