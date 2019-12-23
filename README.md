@@ -16,7 +16,7 @@ This shows the progress I made and things I learned the first few months at my f
 
 
 ## Screenshots
-![Microbit](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/Microbit.png)
+![Microbit](https://github.com/Emanuel-de-Jong/Sprints/blob/master/Screenshots/App%20Inventor.png)
 
 ![App Inventor](https://raw.githubusercontent.com/Emanuel-de-Jong/Sprints/master/Screenshots/App%20Inventor.png)
 
