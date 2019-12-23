@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl-be">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>iSee</title>
+    <meta content="iSee" name="author">
+    <script language="javascript">
+      //Shows the multiplication table of a given number
+      function vermeningvuldigingstafel(){
+        var getal, lengte, i, uitkomst
+        getal=parseInt(prompt("Noem een getal.",""))
+        lengte=parseInt(prompt("Noem de lengte van de tafel.",""))
+        for(i=1;i<=lengte;i=i+1){
+          uitkomst=i*getal
+          document.write(i+"x"+getal+"="+uitkomst+"<br>")
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align: center;"><span style="font-family: Verdana;">vermeningvuldigingstafel<br>
+      </span></h1>
+    <h3 style="text-align: center;"><span style="font-family: Verdana;"><br>
+      </span></h3>
+    <div style="text-align: center;"><span style="font-family: Verdana;"><button
+
+          type="button" name="knopnaam" language="javascript" onclick="vermeningvuldigingstafel()">start</button></span><br>
+      <br style="font-family: Verdana;">
+      <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%207/vermeningvuldigingstafel.jpg"
+
+        style="width: 774px; height: 538px;"><br style="font-family: Verdana;">
+    </div>
+    <p><br>
+    </p>
+  </body>
+</html>

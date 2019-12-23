@@ -1,0 +1,7 @@
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\bin\Debug\Emanuel_de_Jong_Opdracht3.exe.config
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\bin\Debug\Emanuel_de_Jong_Opdracht3.exe
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\bin\Debug\Emanuel_de_Jong_Opdracht3.pdb
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\obj\Debug\Emanuel_de_Jong_Opdracht3.csprojAssemblyReference.cache
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\obj\Debug\Emanuel_de_Jong_Opdracht3.csproj.CoreCompileInputs.cache
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\obj\Debug\Emanuel_de_Jong_Opdracht3.exe
+D:\Data\School\My-Scrum\New folder (2)\toets\Emanuel_de_Jong_Opdracht3\Emanuel_de_Jong_Opdracht3\obj\Debug\Emanuel_de_Jong_Opdracht3.pdb

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>Weekdagen</title>
+</head>
+
+<body>
+    <script>
+        var dag = new Array('zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag');
+        var datum = new Date();
+        var resultaat = dag[datum.getDay()];
+        document.write(resultaat);
+    </script>
+</body>
+
+</html>

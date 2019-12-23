@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+      //Shows you the price of the tickets
+      function Toegangspreis(){
+        var lt, tp
+        lt=parseInt(prompt("Geef je leeftijd",""))
+        if(lt<5){
+          tp=0
+        }else if(lt<21){
+          tp=2
+        }else if(lt<65){
+          tp=3
+        }else{
+          tp=1.5
+        }
+        alert("De toegangsprijs voor het concert: \u20AC"+tp)
+      }
+    </script>
+  </head>
+
+  <body>
+      <h1 style="text-align: center;">
+          Toegangspreis
+      </h1>
+      <br>
+      <h3 style="text-align: center;">
+          
+      </h3>
+      <br>
+      <div style="text-align:center">
+          <button onclick="Toegangspreis()">
+              klik hier
+          </button>
+          <br><br>
+          <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%209/concert.jpg">
+      </div> 
+    </body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>lab16</title>
+        <link rel="stylesheet" type="text/css" href="lab16style.css">
+    </head>
+    <body>
+        <h4>
+            selecteer maand:
+            <!--select alle maanden van het jaar-->
+            <select id="maand">
+                    <option>januari</option>
+                    <option>februari</option>
+                    <option>maart</option>
+                    <option>april</option>
+                    <option>mei</option>
+                    <option>juni</option>
+                    <option>julie</option>
+                    <option>augustus</option>
+                    <option>september</option>
+                    <option>oktober</option>
+                    <option>november</option>
+                    <option>december</option>
+            </select>
+            selecteer jaar:
+            <!--select jaaren van 2000 tot 2022-->
+            <select id="jaar">
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2017</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+            <button id="knop1" onclick="submit()">Print calendar</button>
+        </h4>
+        <div id="maandjaar"></div>
+        <!--laat alle dagen van de week zien(door javascript)-->
+            <table>
+                <tbody id="calendar">
+                </tbody>
+            </table>
+        <script src="lab16script.js"></script>
+    </body>
+</html>

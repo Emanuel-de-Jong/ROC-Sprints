@@ -1,0 +1,7 @@
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\bin\Debug\Opdracht_4_15.exe.config
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\bin\Debug\Opdracht_4_15.exe
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\bin\Debug\Opdracht_4_15.pdb
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\obj\Debug\Opdracht_4_15.csprojAssemblyReference.cache
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\obj\Debug\Opdracht_4_15.csproj.CoreCompileInputs.cache
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\obj\Debug\Opdracht_4_15.exe
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 2\S1-BE-M04\Opdracht_4_15\Opdracht_4_15\obj\Debug\Opdracht_4_15.pdb

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+      //Calculates how often you have to unfold a sigar to cover the whole world
+      function sigaret(){
+        var dikte, plooi
+        dikte=0.0001
+        plooi=0
+        while(dikte<=40000000){
+          plooi=plooi+1
+          dikte=dikte*2
+        }
+        alert("Na "+plooi+" keer plooien, heb je "+dikte+" m.")
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+        Plooi een sigarettenblaadje (0,1 mm)<br>
+        dubbel tot de omtrek van de aarde
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        Druk op start
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="sigaret()">
+            Start hier
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%208/sigaret.jpg">
+    </div> 
+  </body>
+
+</html>

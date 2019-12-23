@@ -1,0 +1,230 @@
+/*Made by Emanuel de Jong &*/
+/* Stijlen voor RadioGaGa */
+
+body{
+    margin: 0 auto;
+    border: 1px solid;
+    overflow: inherit;
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main{
+  width: 100%;
+  margin: 0;
+  padding-bottom: 7%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  float: left;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+footer img{
+  margin: 0;
+  width: 4%;
+}
+footer p{
+  margin: 0;
+  color: firebrick;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    width: 25%;
+    background: linear-gradient(gray, white, gray);
+}
+
+nav ul li a{
+    font-size: 1.7rem;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+}
+
+nav ul li:hover, nav ul li:focus{
+    background: linear-gradient(green, yellow, green);
+    letter-spacing: 5px;
+    font-size: 1.7rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+  margin-top: 40px;
+  height: 80px;
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#disc{
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0,8;
+  width: 400px;
+  height: 400px;
+  margin-top: 5%;
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, grey, black);
+  background-image: radial-gradient(45px 45px 45deg, circle cover, grey 0%, black 100%, black 95%);
+  -webkit-animation-name: revolution;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: revolution;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#center{
+  width: 105px;
+  height: 105px;
+  background: orange;
+  position: relative;
+  top: 37%;
+  left: 37%;
+  display: block;
+  border: 0.5px solid #fff;
+  border-radius: 50%;
+}
+
+@-webkit-keyframes revolution {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@keyframes revolution {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+#pager{
+  height: 100%;
+  width: 100%;
+}
+#pager a{
+  position: relative;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#pager a:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=40);
+  font-size: 3.2rem;
+  background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+
+#previous{
+  z-index: 1;
+  margin-left: 10px;
+  position: fixed;
+  top: 45%;
+  left: 4%;
+}
+#next{
+  z-index: 1;
+  margin-right: 10px;
+  position: fixed;
+  top: 45%;
+  right: 4%;
+}
+
+#album{
+  width: 25%;
+  padding-left: 5%;
+  float: left;
+  text-decoration: none;
+
+}
+#album ul li img{
+  width: 30%;
+  margin-top: 9%;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.5)
+}
+
+#multimedia{
+  margin: auto;
+  width: 30%;
+  border-radius: 2%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  float: left;
+  background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+
+form{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+legend{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+fieldset{
+  border: solid 2px #009D22;
+  width: 70%;
+  margin: auto;
+  border-radius: 2%;
+  background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+input, select, textarea{
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px 30px 5px 50px;
+  width: 50%;
+  text-align: center;
+  font-size: lem;
+  border-radius: 5px;
+}
+input:focus, textarea:focus{
+  box-shadow: 6px 6px 10px #2eefee;
+}
+select{
+  width: 35%;
+}
+input[type=date]{
+  width: 25%;
+}
+input[type=checkbox],
+input[type=radio]{
+  width: 4%;
+}
+input[type=submit]{
+  width: 43%;
+  opacity: 0.6;
+  background-color: #bada55;
+}
+input[type=submit]:hover{
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}

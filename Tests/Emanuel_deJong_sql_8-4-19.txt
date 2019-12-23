@@ -1,0 +1,53 @@
+Opdracht 1
+select 
+pub_name [Naam van de uitgever], 
+city Plaats, 
+country Land
+from publishers
+order by state, city
+
+Opdracht 2
+select
+title titel,
+price prijs,
+pubdate publicatiedatum
+from titles
+where price >= 20 and price <= 30
+
+Opdracht 3
+select *
+from authors
+where
+state = 'CA' and
+contract = 1 and
+au_lname like 'R%'
+
+Opdracht 4
+select
+title [titel van het boek],
+pub_name [naam van de uitgever]
+from titles
+inner join publishers
+on titles.pub_id = publishers.pub_id
+order by pub_name, title
+
+Opdracht 5
+select
+pub_name Uitgever,
+count(titles.pub_id) [Aantal boeken],
+avg(price) [Gemiddelde prijs]
+
+from publishers
+inner join titles
+on publishers.pub_id = titles.pub_id
+group by pub_name
+
+Opdracht 6
+select *
+from employees
+where 
+pub_id = 0736 or
+pub_id = 9999 
+and
+year(hire_date) < 1990
+

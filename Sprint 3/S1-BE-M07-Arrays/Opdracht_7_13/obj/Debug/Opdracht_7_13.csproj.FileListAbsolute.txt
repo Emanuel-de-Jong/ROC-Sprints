@@ -1,0 +1,6 @@
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\bin\Debug\Opdracht_7_13.exe.config
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\bin\Debug\Opdracht_7_13.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\bin\Debug\Opdracht_7_13.pdb
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\obj\Debug\Opdracht_7_13.csproj.CoreCompileInputs.cache
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\obj\Debug\Opdracht_7_13.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M07-Arrays\Opdracht_7_13\obj\Debug\Opdracht_7_13.pdb

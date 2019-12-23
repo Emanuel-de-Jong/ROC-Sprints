@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>Lab 10</title>
+    <script>
+    function converteren(geld, soort){
+        var resultaat;
+        var euro_dollarkoers = 1.36;
+        var dollar_eurokoers = 0.74;
+        var euro_roebelkoers = 48.40;
+        var roebel_eurokoers = 0.02;
+        switch(soort){
+            case 'dollarEuro':
+            resultaat = geld * dollar_eurokoers;
+            alert(geld + ' dollar voor ' + resultaat.toFixed(2) + ' euro');
+            break;
+
+            case 'euroDollar': 
+            resultaat = geld * euro_dollarkoers;
+            alert(geld + ' euro voor ' + resultaat.toFixed(2) + ' dollar');
+            break;
+
+            case 'rubleEuro': 
+            resultaat = geld * roebel_eurokoers;
+            alert(geld + ' ruble voor ' + resultaat.toFixed(2) + ' euro');
+            break;
+
+            case 'euroRuble': 
+            resultaat = geld * euro_roebelkoers;
+            alert(geld + ' euro voor ' + resultaat.toFixed(2) + ' rubel');
+            break;
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <form name="form">
+        <input type="text" name="bedrag" placeholder="vul bedrag in">
+        <select required name="select">
+                <option value="dollarEuro">dollar/euro</option>
+                <option value="euroDollar">euro/dollar</option>
+                <option value="rubleEuro">ruble/euro</option>
+                <option value="euroRuble">euro/ruble</option>
+        </select>
+        <input type="button" value="converteren"
+        onclick="converteren(document.form.bedrag.value, document.form.select.value)">
+    </form>
+</body>
+
+</html>

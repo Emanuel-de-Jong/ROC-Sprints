@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <script>
+        var tekst = 'Dit document is een lang document maar ook een simpel document';
+        function vervangen(tekst, woord, nieuwewoord){
+            return tekst.replace(woord, nieuwewoord);
+        }
+        var resultaat = vervangen(tekst, /document/g, 'script');
+        document.write(resultaat);
+    </script>
+</body>
+</html>

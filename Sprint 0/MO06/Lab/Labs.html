@@ -1,0 +1,59 @@
+<!--Made by Emanuel de Jong-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+      <meta charset=UTF-8>
+      <link rel="stylesheet" href="Labs.css">
+    </head>
+
+    <body>
+        <form action="mailto: postmaster@inschrijfformulier.com" method="POST">
+          <fieldset>
+            <legend>Inschrijfformulier</legend>
+            <select required>
+                <option value="0">Kies een Cursus</option>
+                <option value="Applicatie Ontwikkeling">Applicatie Ontwikkeling</option>
+                <option value="Mode">Mode</option>
+                <option value="Administratief en Secretarieel">Administratief en Secretarieel</option>
+            </select>
+            <br>
+            <select required>
+                <option value="0">Kies een Locatie</option>
+                <option value="Hengelo">Hengelo</option>
+                <option value="Apeldoorn">Apeldoorn</option>
+                <option value="Tokyo">Tokyo</option>
+            </select>
+            <br>
+            <label>Begindatum: </label>
+            <br>
+            <input required type="date">
+            <br>
+            <label>Selecteer Opleiding: </label>
+            BOL <input type="radio">
+            BBL <input type="radio">
+            <br>
+            <input required type="text" placeholder="Voornaam"><br>
+            <input required type="text" placeholder="Achternaam"><br>
+            <input required type="text" placeholder="Adres"><br>
+            <input required type="text" placeholder="Woonplaats"><br>
+            <input required type="email" placeholder="E-Mail"><br>
+            <input required type="number" placeholder="Mobiel"><br>
+            <label>Geef je voorkeur aan:</label>
+            <br>
+            Avondschool:<input type="checkbox">
+            <br>
+            Weekendschool:<input type="checkbox">
+            <br>
+            Geen voorkeur:<input type="checkbox">
+            <br>
+            <label>Wat is je opleidingsniveau</label>
+            <br>
+            <input type="range" min="1" max="4">
+          </fieldset>
+          <input type="submit"value="Verzend">
+        </form>
+    </body>
+
+</html>

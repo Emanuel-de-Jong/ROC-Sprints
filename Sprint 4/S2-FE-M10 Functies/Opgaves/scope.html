@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>scope</title>
+</head>
+
+<body>
+    <script>
+        scope = 'globaal';
+        bevolking = 1000;
+        document.write('<br>scope: ' + scope + '<br>bevolking: ' + bevolking);
+        function functionScope(){
+            var scope = 'lokaal';
+            var lokaleBevolking = 10;
+            bevolking += lokaleBevolking;
+            forensen = 2;
+            document.write('<br>scope: ' + scope + '<br>bevolking: ' + lokaleBevolking);
+        }
+        functionScope();
+        document.write('<br>scope: ' + scope + '<br>bevolking: ' + bevolking);
+        document.write('<br>Als eerste benoemd in functie forenasen: ' + forensen);
+
+        function betselAuto(merk, klasse, kleur){
+            if(typeof arguments[0] == 'undefined'){
+                merk = 'Audi';
+            }
+            if(typeof arguments[1] == 'undefined'){
+                klasse = 'Klasse C';
+            }
+            if(typeof arguments[2] == 'undefined'){
+                kleur = 'Rood';
+            }
+            document.write('<br>Bestelde: een ' + merk + ' ' + klasse + ' in ' + kleur);
+        }
+
+        betselAuto();
+        betselAuto('Porsche');
+        betselAuto('Volvo', 'Klasse A');
+        betselAuto('BMW', 'Klasse A', 'Blauw');
+    </script>
+</body>
+
+</html>

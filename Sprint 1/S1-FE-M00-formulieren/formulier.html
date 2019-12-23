@@ -1,0 +1,90 @@
+<!--Website RadioGaGa-->
+
+<!DOCTYPE html> <!--Webbouw 1-->
+<html lang="nl"> <!--Webbouw 1-->
+    <head>
+        <meta charset="UTF-8"> <!--Webbouw 1-->
+        <title>RadioGaGa</title> <!--Webbouw 1-->
+        <meta name="robots" content="all"> <!--Webbouw 2-->
+        <meta name="language" content="Dutch"> <!--Webbouw 2-->
+        <meta name="author" content="Vincent Gunnink (The Elite)"> <!--Webbouw 2-->
+        <meta name="description" content="RadioGaGa, muziek, playlist"> <!--Webbouw 2-->
+        <meta name="copyright" content="copyright"> <!--Webbouw 2-->
+        <link rel="stylesheet" href="styles.css"> <!--Webbouw 6-->
+    </head>
+    <body>
+        <nav><!--Webbouw 7-->
+            <ul><!--Webbouw 7-->
+                <li><a href="index.html">Home</a></li> <!--Webbouw 7-->
+                <li><a href="playlist.html">Playlist</a></li><!--Webbouw 7-->
+                <li><a href="formulier.html">Formulier</a></li><!--Webbouw 7-->
+                <li><a href="contact.html">Contact</a></li><!--Webbouw 7-->
+            </ul>
+        </nav>
+        <div id="logo"> <!--Webbouw 13-->
+        </div>
+        <main> <!--Webbouw 36-->
+            <div id="pager"> <!--Webbouw 22-->
+                <div id="vorige"> <!--Webbouw 22-->
+                    <a href="playlist.html"> &lt;</a> <!--Webbouw 44-->
+                </div>
+                <div id="volgende"> <!--Webbouw 22-->
+                    <a href="contact.html"> &gt;</a> <!--Webbouw 44-->
+                </div>
+            </div>
+            <form name="formulier" 
+                action = "mailto: postmaster@radiogaga.com"
+                method="POST"> <!--Webbouw 36-->
+                <fieldset> <!--Webbouw 36-->
+                    <legend>Bestel gratis kaarten</legend> <!--Webbouw 37-->
+
+                    <input required type="text" id="naam"
+                        name="naam" placeholder="Naam"><br> <!--Webbouw 37-->
+                    <input required type="text" id="E-mail"
+                        name="email" placeholder="E-Mail"><br> <!--Webbouw 37-->
+                    <input required type="text" id="mobiel"
+                        name="mobiel" placeholder="Mobiel"><br> <!--Webbouw 37-->
+                    <input required type="text" placeholder="Woonplaats" name="woonplaats"
+                        id="woonplaats" list="steden"> <br><!--Webbouw 38-->
+                    <datalist id="steden"> <!--Webbouw 38-->
+                        <option value="Amsterdam"> <!--Webbouw 38-->
+                        <option value="Utrecht"> <!--Webbouw 38-->
+                        <option value="Antwerpen"> <!--Webbouw 38-->
+                        <option value="Apeldoorn"> <!--Webbouw 38-->
+                        <option value="Brussel"> <!--Webbouw 38-->
+                        <option value="Rotterdam"> <!--Webbouw 38-->
+                  </datalist> 
+                    <select required name="concerten" id="concerten"> <!--Webbouw 39-->
+                        <option value="0">Kies een concert</option> <!--Webbouw 39-->
+                        <option value="Manu Chau">Manu Chau</option> <!--Webbouw 39-->
+                        <option value="Evanescence">Evanescence</option> <!--Webbouw 39-->
+                        <option value="Sade">Sade</option> <!--Webbouw 39-->
+                    </select>
+                    <br>
+                    <label for="datum">Geboortedatum: </label> <br> <!--Webbouw 40-->
+                    <input required type="date" name="datum" id="datum"> <br> <!--Webbouw 40-->
+                    <label for="geslacht">Geslacht: </label> <!--Webbouw 40-->
+                    Man <input type="radio" name="geslacht" value="M"> <!--Webbouw 40-->
+                    Vrouw <input type="radio" name="geslacht" value="V"> <!--Webbouw 40-->
+                    <br>
+                    <textarea placeholder="Schijf een commentaar..."></textarea><br> <!--Webbouw 41-->
+                    <label for="abonnementen">Gratis abonnementen;</label><br> <!--Webbouw 42-->
+                    Nieuwsbrief: 
+                    <input type="checkbox" name="nieuwsbrief" id="nieuwsbrief" value="nieuwsbrief"><br> <!--Webbouw 42-->
+                    Concertagenda:
+                    <input type="checkbox" name="agenda" id="agenda" value="agenda"><br> <!--Webbouw 42-->
+                    <label for="ranking">Album Ranking</label> <!--Webbouw 42-->
+                    <input type="range" name="ranking" id="ranking" min="1" max="5"> <!--Webbouw 42-->
+                </fieldset>
+                <input type="submit" id="verzend" name="verzend" value="Verzend"> <!--Webbouw 43-->
+            </form>
+        </main>
+        <footer>
+            <a href="#top"><img src="images/twitter.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/youtube.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/facebook.png" alt="x" ></a> <!--Webbouw 25-->
+            <p>Copyright &copy; 2018 <i>Ontworpen door: The Elite</i>
+            Alle rechten voorbehouden.</p> <!--Webbouw 25-->
+        </footer>
+    </body>
+</html>

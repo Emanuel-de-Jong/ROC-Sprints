@@ -1,0 +1,44 @@
+let d5 = 0
+let d4 = 0
+let d3 = 0
+let d2 = 0
+let d1 = 0
+let Points = 0
+input.onButtonPressed(Button.A, () => {
+    Points = 0
+    d1 = Math.random(6) + 1
+    d2 = Math.random(6) + 1
+    d3 = Math.random(6) + 1
+    d4 = Math.random(6) + 1
+    d5 = Math.random(6) + 1
+    if (d1 == d2 && d2 == d3 && (d3 == d4 && d4 == d5)) {
+        basic.showString("YAHTZEE (50)")
+    } else if (d1 == d2 && d2 == d3 && d3 == d4 || d2 == d3 && (d3 == d4 && d4 == d5)) {
+        basic.showString("CARRÉ (")
+        Points += d1 + d2
+        Points += d3 + d4
+        Points += d5
+        basic.showNumber(Points)
+        basic.showString(")")
+    } else if (d1 != d2 && d2 != d3 && (d3 != d4 && d4 != d5)) {
+        basic.showString("GROTE STRAAT (40)")
+    } else if (d1 != d2 && d2 != d3 && d3 != d4 || d2 != d3 && (d3 != d4 && d4 != d5)) {
+        basic.showString("KLEINE STRAAT (30)")
+    } else if (d4 == d5 || (d1 == d2 || d1 == d3 || (d1 == d4 || d1 == d5) || (d2 == d3 || d2 == d4 || (d2 == d5 || d3 == d4))) || (d2 == d4 && d4 == d5 || d2 == d3 && d3 == d5 || (d1 == d2 && d2 == d3 || d1 == d2 && d2 == d4 || (d1 == d2 && d2 == d5 || d1 == d3 && d3 == d4) || (d1 == d3 && d3 == d5 || d1 == d4 && d4 == d5 || (d2 == d3 && d3 == d4 || d3 == d4 && d4 == d5))))) {
+        basic.showString("FULL HOUSE (25)")
+    } else if (d2 == d4 && d4 == d5 || d2 == d3 && d3 == d5 || (d1 == d2 && d2 == d3 || d1 == d2 && d2 == d4 || (d1 == d2 && d2 == d5 || d1 == d3 && d3 == d4) || (d1 == d3 && d3 == d5 || d1 == d4 && d4 == d5 || (d2 == d3 && d3 == d4 || d3 == d4 && d4 == d5)))) {
+        basic.showString("THREE-OF-A-KIND (")
+        Points += d1 + d2
+        Points += d3 + d4
+        Points += d5
+        basic.showNumber(Points)
+        basic.showString(")")
+    } else {
+        basic.showString("KANS (")
+        Points += d1 + d2
+        Points += d3 + d4
+        Points += d5
+        basic.showNumber(Points)
+        basic.showString(")")
+    }
+})

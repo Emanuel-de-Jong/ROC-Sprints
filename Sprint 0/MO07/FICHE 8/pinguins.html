@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+      //Calculates the birth rate of pinguins
+      function pinguin(){
+        var pinguins, eindaantal, groei, jaar
+        pinguins=50
+      	eindaantal=1000
+      	groei=15
+        jaar=0
+        while(pinguins<eindaantal){
+          jaar=jaar+1
+          pinguins=pinguins+pinguins*groei/100
+        }
+        document.write("Na "+jaar+" jaar zijn we met "+pinguins+" pinguins.")
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+        Hoe snel groeit onze familie
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="pinguin()">
+            Bereken
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%208/pinguins.jpg" 
+        style="width: 774px; height: 538px;">
+    </div> 
+  </body>
+
+</html>

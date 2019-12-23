@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>if-opdracht</title>
+</head>
+
+<body>
+    <script>
+        var doorgaan = confirm('Opgave 52: Doorgaan?');
+        if (doorgaan){
+            alert('Welkom bij de if-opdracht');
+        }
+
+        if (doorgaan){
+            alert('Opgave 53: Klik op OK om te beginnen');
+        }else{
+            alert('Tot ziens!');
+        }
+
+        var leerplichtig;
+        if (doorgaan){
+            var leeftijd = parseInt(prompt('Wat is je leeftijd?'));
+            if (leeftijd < 17){
+                leerplichtig = true;
+            }else{
+                leerplichtig = false;
+            }
+            var gediplomeerd = confirm('Heb je je diploma behaald?');
+            if(leerplichtig && !gediplomeerd){
+                alert('Doorstuderen!');
+            }if(!leerplichtig && !gediplomeerd){
+                alert('Je bent niet leerplichtig EN niet gediplomeerd');
+            }if(!leerplichtig || gediplomeerd){
+                alert('Je bent gediplomeerd OF niet leerplichtig OF allebei');
+            }
+        }
+
+        
+    </script>
+</body>
+
+</html>

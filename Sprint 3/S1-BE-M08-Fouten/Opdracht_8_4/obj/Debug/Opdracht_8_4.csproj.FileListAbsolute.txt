@@ -1,0 +1,7 @@
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\bin\Debug\Opdracht_8_4.exe.config
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\bin\Debug\Opdracht_8_4.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\bin\Debug\Opdracht_8_4.pdb
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\obj\Debug\Opdracht_8_4.csprojAssemblyReference.cache
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\obj\Debug\Opdracht_8_4.csproj.CoreCompileInputs.cache
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\obj\Debug\Opdracht_8_4.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M08-Fouten\Opdracht_8_4\obj\Debug\Opdracht_8_4.pdb

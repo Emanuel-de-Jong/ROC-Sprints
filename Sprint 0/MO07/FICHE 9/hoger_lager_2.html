@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+      //Lets you guess a number between 1 - 100
+      function hoger_lager_2(){
+          var keer, antwoord, i, getal
+          keer=prompt("Kie het aantal keren dat je mag raden","")
+          antwoord=parseInt(Math.random()*99+1)
+          i=0
+          while(i<keer){
+              getal=prompt("Geef een getal tussen 1 en 100","")
+              if(getal>antwoord){
+                alert("Lager!")
+              }
+              if(getal>antwoord){
+                alert("Hoger!")
+              }
+              if(getal==antwoord){
+                alert("Proficiat, je wist het getal na "+i+" keren raden!")
+                break
+              }
+              i=i+1
+          }
+          if (i==keer){
+            alert("Jammer! het getal was "+antwoord+"")
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+        Hoger of Lager 2
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="hoger_lager_2()">
+            Zoek het getal
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%206/hoger_lager.png">
+    </div> 
+  </body>
+
+</html>

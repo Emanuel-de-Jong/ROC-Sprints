@@ -1,0 +1,311 @@
+************************************* Invoked: Thu Nov 1 10:04:31 2018
+[0] Arguments: D:\Data\Downloads\InstallSQLiteStudio-3.2.1.exe
+[5] Operations sanity check succeeded.
+[458] Loaded control script ":/metadata/installer-config/controller_qs.qs"
+[458] Using control script: ":/metadata/installer-config/controller_qs.qs"
+[465] Control script callback "IntroductionPageCallback" does not exist.
+[2010] Warning: :20: TypeError: Cannot call method 'connect' of undefined (:20, )
+[2081] Control script callback "TargetDirectoryPageCallback" does not exist.
+[26032] Created warning message box "OverwriteTargetDirectory": "Warning", "You have selected an existing, non-empty directory for installation.\nNote that it will be completely wiped on uninstallation of this application.\nIt is not advisable to install into this directory as installation might fail.\nDo you want to continue?"
+[46439] Control script callback "ComponentSelectionPageCallback" does not exist.
+[47635] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "39.91 GiB"
+[47635] Installation space required: "47.66 MiB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[47635] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[48272] Control script callback "PerformInstallationPageCallback" does not exist.
+[48306] backup  operation: Mkdir
+[48306] 	- arguments: C:/Users/Emanu/OneDrive - ROC van Twente/Natschool/MO07/Databases/SQLite
+[48309] Done
+[48309] perform  operation: Mkdir
+[48309] 	- arguments: C:/Users/Emanu/OneDrive - ROC van Twente/Natschool/MO07/Databases/SQLite
+[48312] Done
+[48312] Install size: 22 components
+[48845] backup io.qt operation: Extract
+[48845] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[48845] Done
+[48846] perform io.qt operation: Extract
+[48846] 	- arguments: installer://io.qt/5.10.0qt.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[49467] Done
+[49469] backup pl.com.salsoft.sqlitestudio operation: Extract
+[49469] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[49469] Done
+[49469] perform pl.com.salsoft.sqlitestudio operation: Extract
+[49469] 	- arguments: installer://pl.com.salsoft.sqlitestudio/3.2.1sqlitestudio.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[49900] Done
+[49901] backup pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[49901] 	- arguments: C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe, C:\ProgramData\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk, workingDirectory=C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite, iconPath=C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe, iconId=0, description=SQLiteStudio
+[49901] Done
+[49901] perform pl.com.salsoft.sqlitestudio operation: CreateShortcut
+[49901] 	- arguments: C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe, C:\ProgramData\Microsoft\Windows\Start Menu\Programs/SQLiteStudio/SQLiteStudio.lnk
+[49909] Done
+[49909] Operation \"CreateShortcut\" with arguments \"C:\\Users\\Emanu\\OneDrive - ROC van Twente\\Natschool\\MO07\\Databases\\SQLite/SQLiteStudio.exe; C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs/SQLiteStudio/SQLiteStudio.lnk\" failed: 
+[49909] Created warning message box "installationErrorWithRetry": "Installer Error", "Error during installation process (pl.com.salsoft.sqlitestudio):\n"
+[112177] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112177] 	- arguments: db, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[112177] Done
+[112188] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112188] 	- arguments: db, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db
+[112195] Done
+[112196] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112196] 	- arguments: db3, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[112196] Done
+[112196] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112196] 	- arguments: db3, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.db3
+[112204] Done
+[112205] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112205] 	- arguments: sqlite, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[112205] Done
+[112205] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112205] 	- arguments: sqlite, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite
+[112212] Done
+[112213] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112213] 	- arguments: sqlite3, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[112213] Done
+[112214] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112214] 	- arguments: sqlite3, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sqlite3
+[112222] Done
+[112223] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112223] 	- arguments: sdb, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[112223] Done
+[112223] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112223] 	- arguments: sdb, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.sdb
+[112232] Done
+[112233] backup pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112233] 	- arguments: s3db, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[112233] Done
+[112233] perform pl.com.salsoft.sqlitestudio operation: RegisterFileType
+[112233] 	- arguments: s3db, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe '%1', SQLite database, application/octet-stream, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite/SQLiteStudio.exe,0, ProgId=SQLiteStudio.s3db
+[112240] Done
+[112253] backup pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[112253] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112253] Done
+[112253] perform pl.com.salsoft.sqlitestudio.plugins.dbandroid operation: Extract
+[112253] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbandroid/1.2.1DbAndroid.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112277] Done
+[112279] backup pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[112279] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112279] Done
+[112279] perform pl.com.salsoft.sqlitestudio.plugins.csvexport operation: Extract
+[112279] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvexport/1.0.5CsvExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112284] Done
+[112286] backup pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[112286] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112286] Done
+[112286] perform pl.com.salsoft.sqlitestudio.plugins.csvimport operation: Extract
+[112286] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.csvimport/1.0.5CsvImport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112292] Done
+[112293] backup pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[112294] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112294] Done
+[112294] perform pl.com.salsoft.sqlitestudio.plugins.configmigration operation: Extract
+[112294] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.configmigration/1.0.3ConfigMigration.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112303] Done
+[112305] backup pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[112305] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112305] Done
+[112305] perform pl.com.salsoft.sqlitestudio.plugins.htmlexport operation: Extract
+[112305] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.htmlexport/1.0.2HtmlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112311] Done
+[112313] backup pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[112313] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112313] Done
+[112313] perform pl.com.salsoft.sqlitestudio.plugins.multieditorimage operation: Extract
+[112313] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.multieditorimage/1.0.0MultiEditorImage.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112318] Done
+[112319] backup pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[112319] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112319] Done
+[112320] perform pl.com.salsoft.sqlitestudio.plugins.jsonexport operation: Extract
+[112320] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.jsonexport/1.0.2JsonExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112324] Done
+[112326] backup pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[112326] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112326] Done
+[112326] perform pl.com.salsoft.sqlitestudio.plugins.pdfexport operation: Extract
+[112326] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.pdfexport/1.0.3PdfExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112333] Done
+[112334] backup pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[112334] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112334] Done
+[112335] perform pl.com.salsoft.sqlitestudio.plugins.printing operation: Extract
+[112335] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.printing/1.0.3Printing.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112339] Done
+[112341] backup pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[112341] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112341] Done
+[112341] perform pl.com.salsoft.sqlitestudio.plugins.regexpimport operation: Extract
+[112341] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.regexpimport/1.0.2RegExpImport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112346] Done
+[112347] backup pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[112347] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112347] Done
+[112347] perform pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter operation: Extract
+[112347] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlenterpriseformatter/1.0.6SqlEnterpriseFormatter.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112356] Done
+[112358] backup pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[112358] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112358] Done
+[112358] perform pl.com.salsoft.sqlitestudio.plugins.sqlexport operation: Extract
+[112358] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlexport/1.1.2SqlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112363] Done
+[112365] backup pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[112365] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112365] Done
+[112365] perform pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple operation: Extract
+[112365] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.sqlformattersimple/1.0.1SqlFormatterSimple.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112369] Done
+[112372] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[112372] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112372] Done
+[112372] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher operation: Extract
+[112372] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitecipher/1.1.1DbSqliteCipher.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112398] Done
+[112400] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[112400] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112400] Done
+[112400] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlite2 operation: Extract
+[112400] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlite2/1.0.6DbSqlite2.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112415] Done
+[112417] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[112417] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112417] Done
+[112418] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata operation: Extract
+[112418] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitesystemdata/1.0.0DbSqliteSystemData.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112447] Done
+[112450] backup pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[112450] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112450] Done
+[112450] perform pl.com.salsoft.sqlitestudio.plugins.scriptingtcl operation: Extract
+[112451] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.scriptingtcl/1.0.3ScriptingTcl.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112489] Done
+[112491] backup pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[112491] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112491] Done
+[112491] perform pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx operation: Extract
+[112491] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.dbsqlitewx/1.0.1DbSqliteWx.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112524] Done
+[112526] backup pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[112526] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112526] Done
+[112526] perform pl.com.salsoft.sqlitestudio.plugins.xmlexport operation: Extract
+[112526] 	- arguments: installer://pl.com.salsoft.sqlitestudio.plugins.xmlexport/1.0.2XmlExport.7z, C:\Users\Emanu\OneDrive - ROC van Twente\Natschool\MO07\Databases\SQLite
+[112531] Done
+[112701] Writing maintenance tool: "C:\\Users\\Emanu\\OneDrive - ROC van Twente\\Natschool\\MO07\\Databases\\SQLite/UpdateSQLiteStudio.exe.new"
+[112977] Wrote permissions for maintenance tool.
+[113154] Maintenance tool restart: false.
+[113157] Warning: QString::arg: Argument missing: Run SQLiteStudio, SQLiteStudio
+[113157] Control script callback "FinishedPageCallback" does not exist.
+************************************* Invoked: Thu Nov 1 10:10:29 2018
+[0] Operations sanity check succeeded.
+[1886] addDownloadable "DbSqlite2.7z"
+[1886] addDownloadable "CsvExport.7z"
+[1886] addDownloadable "SqlEnterpriseFormatter.7z"
+[1886] addDownloadable "SqlExport.7z"
+[1886] addDownloadable "DbSqliteWx.7z"
+[1886] addDownloadable "ConfigMigration.7z"
+[1887] addDownloadable "JsonExport.7z"
+[1887] addDownloadable "RegExpImport.7z"
+[1887] addDownloadable "HtmlExport.7z"
+[1887] addDownloadable "DbSqliteSystemData.7z"
+[1887] addDownloadable "sqlitestudio.7z"
+[1887] addDownloadable "DbSqliteCipher.7z"
+[1887] addDownloadable "MultiEditorImage.7z"
+[1887] addDownloadable "SqlFormatterSimple.7z"
+[1887] addDownloadable "XmlExport.7z"
+[1887] addDownloadable "Printing.7z"
+[1887] addDownloadable "ScriptingTcl.7z"
+[1888] addDownloadable "PdfExport.7z"
+[1888] addDownloadable "DbAndroid.7z"
+[1888] addDownloadable "qt.7z"
+[1888] addDownloadable "CsvImport.7z"
+************************************* Invoked: Fri Nov 2 08:58:36 2018
+[0] Operations sanity check succeeded.
+[3571] addDownloadable "HtmlExport.7z"
+[3571] addDownloadable "XmlExport.7z"
+[3571] addDownloadable "DbSqliteWx.7z"
+[3571] addDownloadable "CsvExport.7z"
+[3571] addDownloadable "DbSqliteCipher.7z"
+[3571] addDownloadable "CsvImport.7z"
+[3573] addDownloadable "qt.7z"
+[3573] addDownloadable "PdfExport.7z"
+[3573] addDownloadable "Printing.7z"
+[3573] addDownloadable "SqlEnterpriseFormatter.7z"
+[3573] addDownloadable "ConfigMigration.7z"
+[3573] addDownloadable "SqlFormatterSimple.7z"
+[3573] addDownloadable "JsonExport.7z"
+[3573] addDownloadable "RegExpImport.7z"
+[3573] addDownloadable "sqlitestudio.7z"
+[3573] addDownloadable "DbSqlite2.7z"
+[3573] addDownloadable "DbAndroid.7z"
+[3573] addDownloadable "MultiEditorImage.7z"
+[3573] addDownloadable "DbSqliteSystemData.7z"
+[3573] addDownloadable "ScriptingTcl.7z"
+[3573] addDownloadable "SqlExport.7z"
+************************************* Invoked: Fri Nov 2 14:07:10 2018
+[0] Operations sanity check succeeded.
+[2126] addDownloadable "DbSqliteWx.7z"
+[2126] addDownloadable "HtmlExport.7z"
+[2126] addDownloadable "DbSqliteCipher.7z"
+[2127] addDownloadable "SqlFormatterSimple.7z"
+[2127] addDownloadable "SqlExport.7z"
+[2127] addDownloadable "ConfigMigration.7z"
+[2127] addDownloadable "MultiEditorImage.7z"
+[2128] addDownloadable "RegExpImport.7z"
+[2128] addDownloadable "PdfExport.7z"
+[2128] addDownloadable "sqlitestudio.7z"
+[2128] addDownloadable "XmlExport.7z"
+[2128] addDownloadable "CsvExport.7z"
+[2129] addDownloadable "Printing.7z"
+[2129] addDownloadable "DbSqlite2.7z"
+[2129] addDownloadable "SqlEnterpriseFormatter.7z"
+[2129] addDownloadable "DbAndroid.7z"
+[2129] addDownloadable "DbSqliteSystemData.7z"
+[2129] addDownloadable "ScriptingTcl.7z"
+[2129] addDownloadable "JsonExport.7z"
+[2130] addDownloadable "qt.7z"
+[2131] addDownloadable "CsvImport.7z"
+************************************* Invoked: Fri Nov 2 14:11:20 2018
+[0] Operations sanity check succeeded.
+[753] addDownloadable "SqlEnterpriseFormatter.7z"
+[753] addDownloadable "SqlExport.7z"
+[753] addDownloadable "PdfExport.7z"
+[753] addDownloadable "SqlFormatterSimple.7z"
+[753] addDownloadable "ScriptingTcl.7z"
+[754] addDownloadable "HtmlExport.7z"
+[754] addDownloadable "XmlExport.7z"
+[754] addDownloadable "DbSqliteSystemData.7z"
+[754] addDownloadable "DbSqliteWx.7z"
+[754] addDownloadable "DbAndroid.7z"
+[754] addDownloadable "JsonExport.7z"
+[754] addDownloadable "MultiEditorImage.7z"
+[754] addDownloadable "DbSqliteCipher.7z"
+[754] addDownloadable "RegExpImport.7z"
+[754] addDownloadable "CsvExport.7z"
+[755] addDownloadable "Printing.7z"
+[755] addDownloadable "sqlitestudio.7z"
+[755] addDownloadable "DbSqlite2.7z"
+[755] addDownloadable "qt.7z"
+[755] addDownloadable "CsvImport.7z"
+[755] addDownloadable "ConfigMigration.7z"
+************************************* Invoked: Fri Nov 2 14:31:57 2018
+[0] Operations sanity check succeeded.
+[3099] addDownloadable "ScriptingTcl.7z"
+[3099] addDownloadable "SqlEnterpriseFormatter.7z"
+[3099] addDownloadable "DbAndroid.7z"
+[3099] addDownloadable "PdfExport.7z"
+[3099] addDownloadable "DbSqliteCipher.7z"
+[3100] addDownloadable "RegExpImport.7z"
+[3100] addDownloadable "CsvImport.7z"
+[3100] addDownloadable "DbSqliteWx.7z"
+[3100] addDownloadable "Printing.7z"
+[3100] addDownloadable "HtmlExport.7z"
+[3100] addDownloadable "JsonExport.7z"
+[3100] addDownloadable "DbSqliteSystemData.7z"
+[3101] addDownloadable "CsvExport.7z"
+[3101] addDownloadable "ConfigMigration.7z"
+[3101] addDownloadable "MultiEditorImage.7z"
+[3101] addDownloadable "SqlExport.7z"
+[3101] addDownloadable "qt.7z"
+[3101] addDownloadable "sqlitestudio.7z"
+[3101] addDownloadable "SqlFormatterSimple.7z"
+[3102] addDownloadable "DbSqlite2.7z"
+[3102] addDownloadable "XmlExport.7z"

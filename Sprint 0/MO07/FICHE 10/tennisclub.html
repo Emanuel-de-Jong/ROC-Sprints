@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+        //Calculates how much a family has to pay for the tennisclub
+      function Tennisclub(){
+        var oudsteLid, aantalKinderen, lidTijd, lidGeld, kinderGeld
+        oudsteLid=prompt("Wat is de leeftijd van jullie oudste familielid?","")
+        aantalKinderen=prompt("Hoeveel kinderen hebben jullie?","")
+        lidTijd=prompt("Hoeveel jaar zijn jullie al lid?","")
+        lidGeld=100
+        if(oudsteLid>60){
+            lidGeld=lidGeld-25
+        }
+        kinderGeld=aantalKinderen*12.5
+        if(kinderGeld>50){
+            kinderGeld=50
+        }
+        lidGeld=lidGeld-kinderGeld
+        if(lidTijd>20){
+            lidGeld=lidGeld-25
+        }
+        if(lidGeld<39.5){
+            lidGeld=39.5
+        }
+        alert("Jullie moeten "+lidGeld+" euro lidgeld betalen")
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+       Hoeveel moeten jullie voor de tennisclub betalen?
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="Tennisclub()">
+            Bereken
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%2010/tennisclub.jpg">
+    </div> 
+  </body>
+
+</html>

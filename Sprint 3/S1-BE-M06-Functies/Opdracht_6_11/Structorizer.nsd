@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="http://structorizer.fisch.lu/" version="3.28" preRepeat="herhaal totdat" postFor="tot" preReturn="return" postForIn="in" preWhile="herhaal zolang" output="schrijf" input="lees" preFor="voor" preExit="exit" preLeave="leave" ignoreCase="true" preForIn="foreach" stepFor="by" author="ikben" created="2018-11-29" origin="Structorizer 3.28" text="&#34;???&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children color="ffffff">
+	</children>
+</root>

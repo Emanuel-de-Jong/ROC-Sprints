@@ -1,0 +1,37 @@
+#titel{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+
+#mainDiv{
+    width: 60%;
+    height: 250px;
+    margin: auto;
+    background-color: #fffae3;
+    padding: 20px;
+}
+
+#kosten{
+
+}
+#kaart{
+    list-style-type: decimal;
+    color: red;
+}
+
+#input{
+    margin: auto;
+}
+#keuze{
+    width: 40px;
+}
+#geld{
+    width: 40px;
+}
+
+
+#button{
+    margin: auto;
+}

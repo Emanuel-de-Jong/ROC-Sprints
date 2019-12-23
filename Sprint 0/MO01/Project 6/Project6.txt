@@ -1,0 +1,32 @@
+let y = 0
+let x = 0
+let repeat = 0
+input.onButtonPressed(Button.A, () => {
+    repeat = 25
+    for (let i = 0; i < repeat; i++) {
+        x = Math.random(5)
+        y = Math.random(5)
+        if (led.point(x, y) == true) {
+            repeat += 1
+        } else {
+            led.toggle(x, y)
+            basic.pause(300)
+        }
+    }
+    basic.clearScreen()
+    basic.showString("KLAAR")
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+    for (let index = 0; index <= 4; index++) {
+        for (let item = 0; item <= 4; item++) {
+            led.unplot(item, index)
+            basic.pause(100)
+            led.unplot(item, index)
+        }
+    }
+})

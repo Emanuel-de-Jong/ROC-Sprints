@@ -1,0 +1,6 @@
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\bin\Debug\Opdracht_1.exe.config
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\bin\Debug\Opdracht_1.exe
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\bin\Debug\Opdracht_1.pdb
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\obj\Debug\Opdracht_1.csproj.CoreCompileInputs.cache
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\obj\Debug\Opdracht_1.exe
+D:\Data\School\Programeren\Proefwerken\Oefentoets\OefentoetsCSharp\Opdracht_1\obj\Debug\Opdracht_1.pdb

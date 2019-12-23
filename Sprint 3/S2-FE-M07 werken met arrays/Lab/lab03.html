@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>Lab 3</title>
+</head>
+
+<body>
+    <script>
+        var testarray = new Array('een', 'twee', 3, 'vier');
+        testarray.push(5);
+        document.write("3 &nbsp&nbsp" + testarray);
+        document.write("<br>4 &nbsp&nbspDatetype is: " + typeof testarray[4]);
+        testarray.pop();
+        document.write("<br>6 &nbsp&nbsp" + testarray);
+        testarray.unshift('nul');
+        document.write("<br>8 &nbsp&nbsp" + testarray);
+        delete testarray[0];
+        document.write("<br>10 &nbspDatetype [0] is: " + typeof testarray[0]);
+        testarray.splice(0,1);
+        document.write("<br>12 &nbsp" + testarray);
+        testarray.splice(1,1);
+        document.write("<br>14 &nbsp" + testarray);
+        if(testarray.length >= 1){
+            testarray.splice(2,1);
+        }
+        document.write("<br>16 &nbsp" + testarray);
+    </script>
+</body>
+
+</html>

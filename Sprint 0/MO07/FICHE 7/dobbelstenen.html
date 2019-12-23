@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="nl-be">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>iSee</title>
+    <meta content="iSee" name="author">
+    <script language="javascript">
+      //Throws two dices
+      function dobbelstenen(){
+        var som, teller, ds1, ds2, worp, gemiddelde
+        som=0
+        for(teller=1;teller<=10;teller=teller+1){
+        	ds1=parseInt(Math.random()*6)+1
+        	ds2=parseInt(Math.random()*6)+1
+        	worp=ds1+ds2
+        	document.write("Worp ",teller,": ",worp,"<br>")
+        	som=som+worp
+        }
+        gemiddelde=som/10
+        document.write("Totaal aantal ogen: ",som,"<br>")
+        document.write("Gemiddelde per worp: ",gemiddelde)
+      }
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align: center;"><span style="font-family: Verdana;">Hoeveel
+        werp je?<br>
+      </span></h1>
+    <h3 style="text-align: center;"><span style="font-family: Verdana;">Werp 10
+        x 2 dobbelstenen<br>
+      </span></h3>
+    <div style="text-align: center;"><span style="font-family: Verdana;"><button
+
+          type="button" name="knopnaam" language="javascript" onclick="dobbelstenen()">druk
+          hier</button></span><br>
+      <br style="font-family: Verdana;">
+      <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%207/dobbelstenen.jpg"><br
+
+        style="font-family: Verdana;">
+    </div>
+    <p><br>
+    </p>
+  </body>
+</html>

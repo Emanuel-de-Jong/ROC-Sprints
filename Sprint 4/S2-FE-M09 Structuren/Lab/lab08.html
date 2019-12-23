@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>Lab 8</title>
+</head>
+
+<body>
+    <script>
+        var vandaag = new Date();
+        document.write('Vandaag is: ' + vandaag.toDateString());
+        var factuurdatum = new Date('2013-10-11');
+        document.write('<br>factuurdatum is: ' + factuurdatum.toDateString());
+        var dag = 86400000;
+        var termijn = new Date(dag * 30);
+        var betaaltijd = (factuurdatum.getTime() + termijn.getTime());
+        var betaaldatum = new Date(betaaltijd);
+        document.write('<br>betaaldatum is: ' + betaaldatum.toDateString());
+        if(vandaag > betaaldatum){
+            document.write('<br>meld incassobureau');
+        }else{
+            var resterendeDagen = (betaaldatum - vandaag) / dag;
+            document.write('<br>U hebt nog: ' + resterendeDagen + ' dagen om te betalen');
+        }
+    </script>
+</body>
+
+</html>

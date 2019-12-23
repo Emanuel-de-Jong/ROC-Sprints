@@ -1,0 +1,211 @@
+<!--Website RadioGaGa-->
+
+<!DOCTYPE html> <!--Webbouw 1-->
+<html lang="nl"> <!--Webbouw 1-->
+    <head>
+        <meta charset="UTF-8"> <!--Webbouw 1-->
+        <title>RadioGaGa</title> <!--Webbouw 1-->
+        <meta name="robots" content="all"> <!--Webbouw 2-->
+        <meta name="language" content="Dutch"> <!--Webbouw 2-->
+        <meta name="author" content="Vincent Gunnink (The Elite)"> <!--Webbouw 2-->
+        <meta name="description" content="RadioGaGa, muziek, playlist"> <!--Webbouw 2-->
+        <meta name="copyright" content="copyright"> <!--Webbouw 2-->
+        <link rel="stylesheet" href="styles.css"> <!--Webbouw 6-->
+        <link rel="stylesheet" href="responsive.css"> <!--Responsive Design-->
+    </head>
+    <body>
+        <nav><!--Webbouw 7-->
+            <ul><!--Webbouw 7-->
+                <li><a href="index.html">Home</a></li> <!--Webbouw 7-->
+                <li><a href="playlist.html">Playlist</a></li><!--Webbouw 7-->
+                <li><a href="formulier.html">Formulier</a></li><!--Webbouw 7-->
+                <li><a href="contact.html">Contact</a></li><!--Webbouw 7-->
+            </ul>
+        </nav>
+        <div id="logo"> <!--Webbouw 13-->
+        </div>
+        <main>
+            <div id="albums"> <!--Webbouw 28-->
+                <ul> <!--Webbouw 28-->
+                    <li> <!--Webbouw 28-->
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='block';
+                        document.getElementById('album-2').style.display='none';
+                        document.getElementById('album-3').style.display='none';">
+                        <img src="images/album-1.jpg"></a> <!--Webbouw 28-->
+                    </li>
+                    <li>
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='none';
+                        document.getElementById('album-2').style.display='block';
+                        document.getElementById('album-3').style.display='none';">
+                        <img src="images/album-2.jpg"></a> <!--Webbouw 28-->
+                    </li>
+                    <li>
+                        <a onclick=
+                        "document.getElementById('album-1').style.display='none';
+                        document.getElementById('album-2').style.display='none';
+                        document.getElementById('album-3').style.display='block';">
+                        <img src="images/album-3.jpg"></a> <!--Webbouw 28-->
+                    </li>
+                </ul>
+            </div> <!-- einde albums -->
+            <div id="multimedia">
+                <div id="album-1" style='display: block'> <!--Webbouw 30-->
+                    <video controls width="80%" preload poster="images/album-1.jpg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.webm" type="video/wbm"> <!--Webbouw 30-->
+                        <source src="videos/trailer.ogv" type="video/ogg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.mp4" type="video/mp4"> <!--Webbouw 30-->
+                    </video>
+                    <table> <!--Webbouw 32-->
+                        <thead> <!--Webbouw 32-->
+                            <tr> <!--Webbouw 32-->
+                                <th>Track</th><th>Title</th><th>Tijd</th><th>Play</th> <!--Webbouw 32-->
+                            </tr>
+                        </thead>
+                        <tbody> <!--Webbouw 32-->
+                            <tr>
+                                <td>1</td>
+                                <td>Titel 1</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3'; 
+                        v=document.getElementById('audio'); 
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Titel 2</td>
+                                <td>03:18</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Titel 3</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <audio style="display: block" id="audio" src="muziek/2121.mp3" controls> <!--Webbouw 32-->
+                        </audio>
+                    </table>
+                </div>
+                <div id="album-2" style='display: none'> <!--Webbouw 32-->
+                    <video controls width="80%" preload poster="images/album-2.jpg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.webm" type="video/wbm"> <!--Webbouw 30-->
+                        <source src="videos/trailer.ogv" type="video/ogg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.mp4" type="video/mp4"> <!--Webbouw 30-->
+                    </video>
+                    <table> <!--Webbouw 32-->
+                        <thead> <!--Webbouw 32-->
+                            <tr> <!--Webbouw 32-->
+                                <th>Track</th><th>Title</th><th>Tijd</th><th>Play</th> <!--Webbouw 32-->
+                            </tr>
+                        </thead>
+                        <tbody> <!--Webbouw 32-->
+                            <tr>
+                                <td>1</td>
+                                <td>Titel 1</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3'; 
+                        v=document.getElementById('audio'); 
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Titel 2</td>
+                                <td>03:18</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Titel 3</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <audio style="display: block" id="audio" src="muziek/2121.mp3" controls> <!--Webbouw 32-->
+                        </audio>
+                    </table>
+                </div>
+                <div id="album-3" style='display: none'> <!--Webbouw 32-->
+                    <video controls width="80%" preload poster="images/album-3.jpg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.webm" type="video/wbm"> <!--Webbouw 30-->
+                        <source src="videos/trailer.ogv" type="video/ogg"> <!--Webbouw 30-->
+                        <source src="videos/trailer.mp4" type="video/mp4"> <!--Webbouw 30-->
+                    </video>
+                    <table> <!--Webbouw 32-->
+                        <thead> <!--Webbouw 32-->
+                            <tr> <!--Webbouw 32-->
+                                <th>Track</th><th>Title</th><th>Tijd</th><th>Play</th> <!--Webbouw 32-->
+                            </tr>
+                        </thead>
+                        <tbody> <!--Webbouw 32-->
+                            <tr>
+                                <td>1</td>
+                                <td>Titel 1</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3'; 
+                        v=document.getElementById('audio'); 
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Titel 2</td>
+                                <td>03:18</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Titel 3</td>
+                                <td>02:08</td>
+                                <td>
+                        <a onclick="document.getElementById('audio').src='muziek/2121.mp3';
+                        v=document.getElementById('audio');
+                        v.play();">|></a> <!--Webbouw 32-->
+                                </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <audio style="display: block" id="audio" src="muziek/2121.mp3" controls> <!--Webbouw 32-->
+                        </audio>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="#top"><img src="images/twitter.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/youtube.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/facebook.png" alt="x" ></a> <!--Webbouw 25-->
+            <p>Copyright &copy; 2018 <i>Ontworpen door: The Elite</i>
+            Alle rechten voorbehouden.</p> <!--Webbouw 25-->
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\bin\Debug\Opdracht_2.exe.config
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\bin\Debug\Opdracht_2.exe
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\bin\Debug\Opdracht_2.pdb
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\obj\Debug\Opdracht_2.csprojAssemblyReference.cache
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\obj\Debug\Opdracht_2.csproj.CoreCompileInputs.cache
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\obj\Debug\Opdracht_2.exe
+D:\Data\School\Programeren\Proefwerken\CSharpToets05-04-19\CSharptoets_EmanuelDeJong\Opdracht_2\obj\Debug\Opdracht_2.pdb

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+        //Calculates how long it takes before the money is dubbled
+      function Zakgeld(){
+        var geldNu, intrestvoet, dubbelGeld, jaar
+        geldNu=parseInt(prompt("Hoeveel geld heb je op je rekening?",""))
+        intrestvoet=parseInt(prompt("Hoeveel procent is de intrestvoet?",""))
+        intrestvoet=(intrestvoet/100)+1
+        dubbelGeld=geldNu*2
+        jaar=0
+        while(geldNu<dubbelGeld){
+            geldNu=geldNu*intrestvoet
+            jaar=jaar+1
+        }
+        alert("Je hebt in "+jaar+" jaar "+GeldNu+".")
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+       Hoeveel jaar duurt het voordat je geld verdubbeld is?
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="Zakgeld()">
+            Bereken
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%2010/Zakgeld.jpg">
+    </div> 
+  </body>
+
+</html>

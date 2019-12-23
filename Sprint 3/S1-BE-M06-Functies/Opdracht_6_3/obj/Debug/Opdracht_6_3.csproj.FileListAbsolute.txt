@@ -1,0 +1,7 @@
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\obj\Debug\Opdracht_6_3.csprojAssemblyReference.cache
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\obj\Debug\Opdracht_6_3.csproj.CoreCompileInputs.cache
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\bin\Debug\Opdracht_6_3.exe.config
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\bin\Debug\Opdracht_6_3.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\bin\Debug\Opdracht_6_3.pdb
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\obj\Debug\Opdracht_6_3.exe
+D:\Data\School\Team-Scrum\Sprint 3\S1-BE-M06-Functies\Opdracht_6_3\obj\Debug\Opdracht_6_3.pdb

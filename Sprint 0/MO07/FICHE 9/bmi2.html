@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <meta charset=UTF-8>
+    <script language="javascript">
+        //Measures your BMI
+      function BMIv2(){
+          var lengte, gewicht, bmi
+          lengte=prompt("Wat is je lengte?","")
+          gewicht=prompt("Wat is je gewicht?","")
+          bmi=gewicht/(lengte*lengte)
+          if(bmi<20){
+              alert("te mager")
+          }
+          else if(bmi<25){
+              alert("normaal gewicht")
+          }
+          else if(bmi<=30){
+              alert("licht overgewicht")
+          }
+          else{
+              alert("overgewicht")
+          }  
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">
+        BMIv2
+    </h1>
+    <br>
+    <h3 style="text-align: center;">
+        
+    </h3>
+    <br>
+    <div style="text-align:center">
+        <button onclick="BMIv2()">
+            Bereken
+        </button>
+        <br><br>
+        <img src="file:///C:/Users/Emanu/OneDrive%20-%20ROC%20van%20Twente/Natschool/MO07/FICHE%206/bmi.jpg">
+    </div> 
+  </body>
+
+</html>

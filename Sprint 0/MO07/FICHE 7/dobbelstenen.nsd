@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.28-09" preRepeat="herhaal totdat" postFor="tot" preReturn="return" postForIn="in" preWhile="herhaal zolang" output="schrijf" input="lees" preFor="voor" preExit="exit" preLeave="leave" ignoreCase="true" preForIn="voor elke" stepFor="bij" author="Emanu" created="2018-10-18" changedby="Emanu" changed="2018-10-18" origin="Structorizer 3.28-09" text="&#34;dobbelstenen&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;SOM&#60;-0&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<for text="&#34;voor TELLER &#60;- 1 tot 10&#34;" comment="&#34;&#34;" counterVar="TELLER" startValue="1" endValue="10" stepConst="1" style="COUNTER" color="ffffff" disabled="0">
+			<qFor>
+				<instruction text="&#34;DOBBELSTEEN1&#60;-random(5)+1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+				<instruction text="&#34;DOBBELSTEEN2&#60;-random(5)+1&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+				<instruction text="&#34;WORP&#60;-DOBBELSTEEN1+DOBBELSTEEN2&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+				<instruction text="&#34;schrijf&#34;&#34;Worp &#34;&#34;+TELLER+&#34;&#34;: &#34;&#34;+WORP&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+				<instruction text="&#34;SOM&#60;-SOM+WORP&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFor>
+		</for>
+		<instruction text="&#34;GEMIDDELDE&#60;-SOM/10&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;schrijf&#34;&#34;Totaal aantal ogen: &#34;&#34;+SOM&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;schrijf&#34;&#34;Gemiddelde per worp: &#34;&#34;+GEMIDDELDE&#34;" comment="" color="ffffff" rotated="0" disabled="0"></instruction>
+	</children>
+</root>

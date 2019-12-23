@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 id="titel">DRANKAUTOMAAT</h1><br>
+
+    <div id="mainDiv">
+        <div id="kaartDiv">
+        <ul id="kaart">
+            <li>Coca-Cola</li>
+            <li>Fanta</li>
+            <li>Spa Blauw</li>
+            <li>Red Bull</li>
+        </ul>
+        </div>
+        <div id="kostenDiv">
+        <ul id="kosten">
+            <li>€1,00</li>
+            <li>€1,00</li>
+            <li>€0,75</li>
+            <li>€1,50</li>
+        </ul>
+        </div>
+
+        <br>
+        <div id="input">
+        <form>
+            Keuze:
+            <input type="text" id="keuze">
+            <br><br>
+            Geld:
+            <input type="text" id="geld">
+        </form>
+        </div>
+    </div>
+
+    <br>
+    <form id="button">
+        <input type="submit" value="OK?" onclick="main();">
+    </form>
+
+    <script>
+        function main(){
+            var keuze = document.getElementById('keuze').value;
+            var geld = document.getElementById('geld').value;
+            var teBetalen = 0.0;
+            var product = "";
+            switch (keuze)
+            {
+                case 1:
+                    teBetalen = 1.0;
+                    product = "Coca-Cola";
+                    break;
+                case 2:
+                    teBetalen = 1.0;
+                    product = "Fanta";
+                    break;
+                case 3:
+                    teBetalen = 0.75;
+                    product = "Spa blauw";
+                    break;
+                case 4:
+                    teBetalen = 1.5;
+                    product = "Red bull";
+                    break;
+            }
+            if (geld < teBetalen)
+            {
+                alert("Het betaalde bedrag is niet voldoende.");
+            }
+            else if (geld == teBetalen)
+            {
+                document.write("Het bestelde product, " + product + ", wordt uitgeleverd.");
+            }
+            else
+            {
+                document.write("Het bestelde product, " + product + ", wordt uitgeleverd en er wordt " + (geld - teBetalen).toFixed(2) + ", euro wisselgeld geretourneerd.");
+            }
+        }
+    </script>
+</body>
+</html>

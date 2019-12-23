@@ -1,0 +1,41 @@
+
+html{
+    font-family: sans-serif;
+    background-color:rgba(39, 39, 39, 0.952);
+    color:white;
+    font-weight:bold;
+}
+#box{
+    background-color:aqua;
+    text-align: center;
+    color:black;
+    border:rgba(39, 39, 39, 0.952) 2px solid;
+    width:50px;
+    height:50px;
+
+}
+#box:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(230, 230, 230, 0.493);
+}
+#knop1{
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: aqua;
+    border:none;
+    color:black;
+}
+#knop1:hover{
+    transition: background-color 0.2s;
+    background-color: rgba(230, 230, 230, 0.493);
+}
+#maand{
+    border-radius: 3px;
+    border:none;
+    font-weight: bold;
+}
+#jaar{
+    border-radius: 3px;
+    border:none;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+form{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+legend{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+fieldset{
+  border: solid 2px #009D22;
+  width: 50%;
+  margin: auto;
+  border-radius: 2%;
+  background-image: linear-gradient(to bottom, hsl(0, 80%, 50%), #bada55);
+}
+input, textarea{
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px 30px 5px 50px;
+  width: 50%;
+  text-align: center;
+  font-size: lem;
+  border-radius: 5px;
+}
+input:focus, textarea:focus{
+  box-shadow: 6px 6px 10px #2eefee;
+}
+select{
+  width: 35%;
+}
+input[type=date]{
+  width: 30%;
+}
+input[type=checkbox],
+input[type=radio]{
+  width: 4%;
+}
+input[type=submit]{
+  width: 30%;
+  opacity: 0.6;
+  background-color: #bada55;
+}
+input[type=submit]:hover{
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+select{
+  border: solid 1px black;
+  margin: 5px;
+  font-size: lem;
+  border-radius: 5px;
+  text-align: left;
+}
+input[type=range]{
+  width: 30%;
+}

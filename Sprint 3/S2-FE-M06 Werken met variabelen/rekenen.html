@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>Rekenen</title>
+</head>
+
+<body>
+    <script>
+        var result
+        var getal1 = parseInt(prompt("Geef een getal in"));
+        var getal2 = parseInt(prompt("Geef nog een getal in"));
+        var string = prompt("Voer \"plus\", \"min\", \"maal\" of \"delen\" in");
+        if (string == "plus"){
+            result = getal1 + getal2;
+        }else if (string == "min"){
+            result = getal1 - getal2;
+        }else if (string == "maal"){
+            result = getal1 * getal2;
+        }else if (string == "delen"){
+            result = getal1 / getal2;
+        }
+        document.write("Het resultaat is: " + result);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\bin\Debug\Opdracht_3_11.exe.config
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\bin\Debug\Opdracht_3_11.exe
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\bin\Debug\Opdracht_3_11.pdb
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\obj\Debug\Opdracht_3_11.csprojAssemblyReference.cache
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\obj\Debug\Opdracht_3_11.csproj.CoreCompileInputs.cache
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\obj\Debug\Opdracht_3_11.exe
+C:\Users\ikben\OneDrive - ROC van Twente\School\Scrum\The elite\Github\Gezamelijk\TheElite\Sprint 2\S1-BE-M03-Methoden\Opdracht_3_11\Opdracht_3_11\Opdracht_3_11\obj\Debug\Opdracht_3_11.pdb

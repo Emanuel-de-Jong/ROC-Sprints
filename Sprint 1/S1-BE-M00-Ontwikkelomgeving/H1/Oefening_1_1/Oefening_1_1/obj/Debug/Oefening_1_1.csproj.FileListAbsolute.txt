@@ -1,0 +1,7 @@
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\bin\Debug\Oefening_1_1.exe.config
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\bin\Debug\Oefening_1_1.exe
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\bin\Debug\Oefening_1_1.pdb
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\obj\Debug\Oefening_1_1.csprojAssemblyReference.cache
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\obj\Debug\Oefening_1_1.csproj.CoreCompileInputs.cache
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\obj\Debug\Oefening_1_1.exe
+C:\Users\Emanu\ROC van Twente\Syon Foppen - The Elite\Persoonlijk\Emanuel\Scrum\Sprint 1\S1-BE-M00\H1\Oefening_1_1\Oefening_1_1\obj\Debug\Oefening_1_1.pdb

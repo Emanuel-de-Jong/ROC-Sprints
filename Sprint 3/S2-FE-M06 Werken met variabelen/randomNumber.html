@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset=UTF-8>
+    <title>randomNumber</title>
+	<style>
+		body{
+		background-color: black;
+		color: pink;
+		}
+	</style>
+</head>
+
+<body>
+    <h1>Random number</h1>
+    <div id="divID"></div>
+    <script>
+        var vraag = "Kies een random nummer onder de 10?";
+        var randomNumber = Math.floor(Math.random() * 10) + 1  ;
+        var goed = "<h2> Je hebt het geraden! </h2>";
+        var fout = "<h2> Jammer, volgende keer beter !</h2>";
+        var getal = prompt(vraag);
+        var resultaat = (getal == randomNumber) ? goed: fout;
+        document.getElementById("divID").innerHTML = resultaat;
+    </script>
+</body>
+
+</html>

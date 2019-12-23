@@ -1,0 +1,59 @@
+html{
+    background-color: rgb(193, 159, 247);
+}
+
+#d1{
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    background-color: rgb(210, 255, 126);
+}
+
+#d2{
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    background-color: rgb(210, 255, 126);
+    background-image: url(images/google.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#d3{
+    height: 160px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    background-color: rgba(182, 255, 45, 0.5);
+    background-image: url(images/firefox.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+#d4{
+    line-height: 380%;
+    font-size: 20px;
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    color: orange;
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
+    background-color: rgba(166, 255, 0, 0.5);
+}
+
+#d4 p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav #d2:hover, nav #d2:focus{
+    margin-right: 0;
+}

@@ -1,0 +1,14 @@
+CREATE TABLE autos (
+	Kenteken TEXT PRIMARY KEY,
+	Merk TEXT,
+	Model TEXT,
+	Kleur TEXT,
+	Bouwjaar INTEGER,
+	Eigenaar TEXT
+	);
+
+INSERT INTO autos VALUES 
+	("01-GBB-SP", "A1", "zwart", 2012, "Rob Bouwer"),
+	("75-DND-GP", "S-18", "wit", 2017, "Arjen van der Dam"),
+	("71-ZXK-FS", "Q5", "rood", 2008, "Rico de Jong");	
+

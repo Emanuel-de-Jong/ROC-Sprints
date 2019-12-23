@@ -1,0 +1,76 @@
+<!--Website RadioGaGa-->
+
+<!DOCTYPE html> <!--Webbouw 1-->
+<html lang="nl"> <!--Webbouw 1-->
+    <head>
+        <meta charset="UTF-8"> <!--Webbouw 1-->
+        <title>RadioGaGa</title> <!--Webbouw 1-->
+        <meta name="robots" content="all"> <!--Webbouw 2-->
+        <meta name="language" content="Dutch"> <!--Webbouw 2-->
+        <meta name="author" content="Vincent Gunnink (The Elite)"> <!--Webbouw 2-->
+        <meta name="description" content="RadioGaGa, muziek, playlist"> <!--Webbouw 2-->
+        <meta name="copyright" content="copyright"> <!--Webbouw 2-->
+        <link rel="stylesheet" href="styles.css"> <!--Webbouw 6-->
+        <link rel="stylesheet" href="responsive.css"> <!--Responsive Design-->
+        
+    </head>
+    <body>
+        <nav><!--Webbouw 7-->
+            <ul><!--Webbouw 7-->
+                <li><a href="index.html">Home</a></li> <!--Webbouw 7-->
+                <li><a href="playlist.html">Playlist</a></li><!--Webbouw 7-->
+                <li><a href="formulier.html">Formulier</a></li><!--Webbouw 7-->
+                <li><a href="contact.html">Contact</a></li><!--Webbouw 7-->
+            </ul>
+        </nav>
+        <div id="logo"> <!--Webbouw 13-->
+        </div>
+        <main>
+            <div id="pager"> <!--Webbouw 22-->
+                <div id="vorige"> <!--Webbouw 22-->
+                    <a href="formulier.html"> &lt;</a> <!--Webbouw 52-->
+                </div>
+                <div id="volgende"> <!--Webbouw 22-->
+                    <a href="index.html"> &gt;</a> <!--Webbouw 52-->
+                </div>
+            </div>
+            <p id="contact">
+                <span>Aliquam erat Volutpat.</span> <br> <em>Mauris</em> vel neque sit amet nunc gravida <!--Webbouw 52-->
+                <strong>congue sed sit amet prusus</strong>.
+                <br> <mark>Quinsque</mark> lacus quam, egestas ac tincidunt a, lacinia vel velit.<br> <!--Webbouw 52-->
+            </p>
+            <form name="contact" 
+            action = "mailto: postmaster@radiogaga.com"
+            method="POST"> 
+                <fieldset> 
+                <legend>Feedback</legend> 
+
+                <input required type="text" id="naam"
+                    name="naam" placeholder="Naam"><br> 
+                <input required type="text" id="E-mail"
+                    name="email" placeholder="E-Mail"><br>
+                <input required type="text" id="mobiel"
+                    name="mobiel" placeholder="Mobiel"><br>
+                <br>
+                <br>
+                <br>
+                <textarea rows="2" required type="text" id="commentaar"
+                    name="commentaar" placeholder="Tik je vraag of commentaar in ..."></textarea>
+                </fieldset>
+            </form>
+            <div id="send">
+                <form>
+                    <input type="submit" id="verzend"
+                    name="verzend" value="Verzend">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <a href="#top"><img src="images/twitter.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/youtube.png" alt="x" ></a> <!--Webbouw 25-->
+            <a href="#top"><img src="images/facebook.png" alt="x" ></a> <!--Webbouw 25-->
+            <p>Copyright &copy; 2018 <i>Ontworpen door: The Elite</i>
+            Alle rechten voorbehouden.</p> <!--Webbouw 25-->
+        </footer>
+    </body>
+</html>

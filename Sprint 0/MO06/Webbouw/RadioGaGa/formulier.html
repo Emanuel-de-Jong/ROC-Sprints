@@ -1,0 +1,100 @@
+<!--Made by Emanuel de Jong, Vincent Gunnink, Rico Boerdam & Syon Foppen-->
+<!-- website RadioGaGa -->
+<!DOCTYPE html>
+
+<html lang="nl">
+
+    <head>
+        <meta http-equiv="Content-Type"
+            content="text/html;
+            charset=UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name= "robots" content="all">
+        <meta name= "language" content="Dutch">
+        <meta name= "author" content="Emanuel de Jong">
+        <meta name= "description" content="RadioGaGa marketing">
+        <meta name= "keywords" content="RadioGaGa, muziek, playlist">
+        <meta name= "copyright" content="copyright">
+        <meta http-equiv="refresh">
+        <title>RadioGaGa</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playlist.html">playlist</a></li>
+                <li><a href="formulier.html">Formulier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="logo"></div>
+        <main>
+
+            <form name="formulier" action="mailto: postmaster@radiogaga.com" method="POST">
+                <fieldset>
+                    <legend>Bestel gratis kaarten</legend>
+
+                    <input required type="text" id="name" name="name" placeholder="Naam">
+                    <br>
+                    <input required type="email" id="email" name="email" placeholder="E-Mail">
+                    <br>
+                    <input required type="text" id="mobile" name="mobile" placeholder="Mobiel">
+                    <br>
+                    <input required type="text" id="addres" name="addres" placeholder="Woonplaats" list="cities">
+                        <datalist id="cities">
+                            <option value="Amsterdam"></option>
+                            <option value="Utrecht"></option>
+                            <option value="Antwerpen"></option>
+                            <option value="Apeldoorn"></option>
+                            <option value="Brussel"></option>
+                            <option value="Rotterdam"></option>
+                        </datalist>
+                        <br>
+                    <select required id="concerts" name="concerts">
+                        <option value="0">Kies een concert</option>
+                        <option value="Manu Chau">Manu Chau</option>
+                        <option value="Evanescene">Evanescene</option>
+                        <option value="Sade">Sade</option>
+                    </select>
+                    <br>
+                    <label for="date">Geboortedatum: </label><br>
+                    <input required type="date" name="date" id="date">
+                    <br>
+                    <label for="gender">Geslacht: </label>
+                    Man <input type="radio" name="gender" value="M">
+                    Vrouw <input type="radio" name="gender" value="V">
+                    <br>
+                    <textarea placeholder="Schrijf een commentaar..."></textarea>
+                    <br>
+                    <label for="subscriptions">Gratis abonnementen:</label>
+                    <br>
+                    Nieuwsbrief:
+                    <input type="checkbox" name="newsletter" id="newsletter" value="newsletter">
+                    <br>
+                    Concertagenda:
+                    <input type="checkbox" name="calendar" id="calendar" value="calendar">
+                    <br>
+                    <label for="ranking">Album Ranking</label>
+                    <input type="range" name="ranking" id="ranking" min="1" max="5">
+                </fieldset>
+                <input type="submit" id="send" name="send" value="Verzenden">
+            </form>
+
+            <div id="pager">
+                <div id="previous">
+                    <a href="#top"> &lt;</a>
+                </div>
+                <div id="next">
+                    <a href="playlist.html">&gt;</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="#top"><img src="images/twitter.png" alt="x"></a>
+            <a href="#top"><img src="images/youtube.png" alt="x"></a>
+            <a href="#top"><img src="images/facebook.png" alt="x"></a>
+            <p>copyright &copy; 2018 <i>Ontworpen door Emanuel de Jong.</i> Alle rechten voorbehouden.</p>
+        </footer>
+    </body>
+
+</html>
